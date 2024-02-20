@@ -1,0 +1,14 @@
+<mat-form-field>
+  <mat-label>Autosize textarea</mat-label>
+  <textarea matInput
+  style="white-space: pre-wrap;"
+            cdkTextareaAutosize
+            cols="39"
+            #autosize="cdkTextareaAutosize"
+            #punkide
+            cdkAutosizeMinRows="1"
+            cdkAutosizeMaxRows="5"></textarea>
+</mat-form-field>
+<p>Current data is {{Input$ | async}}</p>
+
+
