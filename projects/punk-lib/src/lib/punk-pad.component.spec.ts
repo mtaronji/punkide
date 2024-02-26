@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PunkPadComponent } from './punk-pad.component';
 
+
 describe('PunkLibComponent', () => {
   let component: PunkPadComponent;
   let fixture: ComponentFixture<PunkPadComponent>;
@@ -18,4 +19,9 @@ describe('PunkLibComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('Should have Editor Stream functioning correctly', ()=>{
+  
+  });
+
 });
